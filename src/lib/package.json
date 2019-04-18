@@ -1,12 +1,12 @@
 {
     "name": "lib",
     "version": "1.0.0",
-    "description": "Chatty Group Project",
+    "description": "Hotshotz",
     "main": "index.html",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "Pineapple Tribute",
+    "author": "Jesie Oldenburg",
     "license": "ISC",
     "devDependencies": {
         "browserify": "^15.2.0",

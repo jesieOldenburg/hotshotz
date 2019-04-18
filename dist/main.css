@@ -1,5 +1,5 @@
 .navbar.navbar-light {
-  background-color: #FE6602; }
+  background-color: #00db37; }
 
 a.navbar-brand {
   color: black; }
@@ -7,9 +7,12 @@ a.navbar-brand {
 .navbar-toggler {
   border: 1px solid black; }
 
+.nav-link {
+  color: aliceblue; }
+
 .footer {
-  background-color: black;
-  height: 1.3rem; }
+  background-color: #27dd0f;
+  height: 1.3em; }
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
