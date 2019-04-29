@@ -1,0 +1,35 @@
+.col.menu-content {
+    // border: 2px solid #DB5800;
+    padding: 3.5rem, 0px;
+    width: 50%;
+}
+
+.col.menu-item {
+    // border-bottom: 3px dashed #DB5800;
+    // margin-bottom: 2.5rem;
+    padding: 1.5px;
+    width: 2.5rem;
+}
+
+.menu-item-description {
+    width: 60%;
+    margin: auto;
+    padding: 1.5rem, 0%;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.price {
+    font-size: 1.5em;
+    font-weight: 700;
+    font-style: italic;
+    // color: rgb(58, 196, 53);
+}
+
+.menu-item-border {
+    // width: 60%;
+    // margin: auto;
+    border-bottom: 5px solid #DB5800;
+    margin-bottom: 1.5rem;
+}

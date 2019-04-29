@@ -1,8 +1,31 @@
 module.exports = function(grunt) {
     grunt.initConfig({
         browserify: {
-            '../../dist/app.js': ['../js/main.js']
+            js: {
+                src: ['../js/main.js'],
+                dest: '../../dist/app.js'
+            },
+            options: {
+                browserifyOptions: {
+                    paths: ["./node_modules"]
+                }
+            }
         },
+        // babel: {
+        //     options: {
+        //         sourceMap: true,
+        //         presets: ['@babel/preset-env']
+        //     },
+        //     dist: {
+        //         files: [{
+        //             expand: true,
+        //             cwd: '../js/',
+        //             src: ['*.js'],
+        //             dest: '../../dist/',
+        //             ext: '.js'
+        //         }]
+        //     }
+        // },
         jshint: {
             files: ['../js/**/*.js'], //location of javascript files
             options: {
@@ -26,12 +49,20 @@ module.exports = function(grunt) {
         copy: {
             main: {
                 files: [{
-                    expand: true,
-                    cwd: '../html/',
-                    src: ['*.html'],
-                    dest: '../../dist/html/',
-                    ext: '.html'
-                }]
+                        expand: true,
+                        cwd: '../html/',
+                        src: ['*.html'],
+                        dest: '../../dist/html/',
+                        ext: '.html'
+                    },
+                    {
+                        expand: true,
+                        cwd: '../imgs/',
+                        src: ['*.jpg'],
+                        dest: '../../dist/img/',
+                        ext: '.jpg'
+                    }
+                ]
             }
         },
         watch: { //automatically watch for changes
