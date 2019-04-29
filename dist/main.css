@@ -22,7 +22,9 @@ a.navbar-brand {
 -------------------------------------------------- */
 /* Carousel base class */
 .carousel {
-  margin-bottom: 4rem; }
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  width: 90%; }
 
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -35,19 +37,27 @@ a.navbar-brand {
   background-color: #777; }
 
 .carousel-item > img {
+  min-width: 100%; }
+
+.img-responsive {
   position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  height: 32rem; }
+  right: 0; }
 
 .col.menu-content {
   padding: 3.5rem, 0px;
   width: 50%; }
 
+.row.menu-item {
+  margin-bottom: 3.5rem; }
+
 .col.menu-item {
   padding: 1.5px;
   width: 2.5rem; }
+
+h4.menu-item {
+  margin-top: 2.5rem;
+  padding-bottom: 1.6rem;
+  font-size: 2.4rem; }
 
 .menu-item-description {
   width: 60%;
@@ -89,5 +99,29 @@ a.navbar-brand {
 
 #admin-login-form {
   margin-top: 4.5rem; }
+
+.card {
+  border: 1px solid #DB5800;
+  margin: 2.5rem;
+  padding: 3.2rem; }
+
+.card-text {
+  margin-bottom: 2rem; }
+
+.card-header {
+  border-bottom: 2px solid #DB5800; }
+
+card-cont {
+  padding: 2rem; }
+
+.landing-card {
+  padding: 1.2rem; }
+
+.row.about {
+  margin: auto; }
+
+h3.text-center.about {
+  margin-bottom: 2rem;
+  margin-top: 2rem; }
 
 /*# sourceMappingURL=main.css.map */
