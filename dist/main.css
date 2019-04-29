@@ -111,4 +111,17 @@ h4.menu-item {
 .card-header {
   border-bottom: 2px solid #DB5800; }
 
+card-cont {
+  padding: 2rem; }
+
+.landing-card {
+  padding: 1.2rem; }
+
+.row.about {
+  margin: auto; }
+
+h3.text-center.about {
+  margin-bottom: 2rem;
+  margin-top: 2rem; }
+
 /*# sourceMappingURL=main.css.map */
