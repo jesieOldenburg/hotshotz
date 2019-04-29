@@ -20,5 +20,10 @@
         "jshint-stylish": "^2.2.1",
         "matchdep": "^2.0.0"
     },
-    "dependencies": {}
+    "dependencies": {
+        "express": "^4.16.4",
+        "firebase": "^5.4.2",
+        "jquery": "^3.4.0",
+        "moment": "^2.24.0"
+    }
 }
