@@ -100,16 +100,50 @@ h4.menu-item {
 #admin-login-form {
   margin-top: 4.5rem; }
 
+.row.repeat-events {
+  margin-top: 3rem;
+  margin-bottom: 3rem; }
+
+p.rep-event-desc {
+  max-height: max-content; }
+
+div.times-container {
+  margin-left: 0.8rem; }
+
+h6.time-headings {
+  border-bottom: 3px solid #DB5800; }
+
+span.time-span {
+  float: right; }
+
 .card {
   border: 1px solid #DB5800;
-  margin: 2.5rem;
-  padding: 3.2rem; }
+  margin: 1rem;
+  padding: 0.3rem; }
 
-.card-text {
+.card-title {
+  margin: 2.5px; }
+
+.card-subtitle {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem; }
+
+.card-text.text-center {
   margin-bottom: 2rem; }
 
 .card-header {
   border-bottom: 2px solid #DB5800; }
+
+.card-date.text-center {
+  border: 1px solid #DB5800;
+  border-radius: 15px;
+  padding: 1.1rem;
+  text-align: center;
+  width: 28%;
+  margin: auto; }
+
+.row.header {
+  margin-top: 1.5px; }
 
 card-cont {
   padding: 2rem; }
