@@ -122,14 +122,14 @@ function appendCards(data) {
                     <h5 class="card-title text-center">
                         ${data.eventObj.title}
                     </h5>
+                    <h6 class=" card-subtitle text-center">
+                        ${data.eventObj.date}
+                    </h6>
                 </div>
                 <div class="card-body">
                     <p class="card-text text-center">
                         ${data.eventObj.desc}
                     </p>
-                    <a href="#" class="btn btn-outline-primary to-calendar-button">
-                        ${data.eventObj.date}
-                    </a>
                 </div>
             </div>`;
 
