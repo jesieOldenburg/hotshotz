@@ -2,13 +2,12 @@
     "name": "lib",
     "version": "1.0.0",
     "description": "Hotshotz",
-    "main": "index.html",
-     "engines": {
+    "main": "main.js",
+    "engines": {
         "node": "11.13.0"
-     },
+    },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node index.js"
     },
     "author": "Jesie Oldenburg",
     "license": "ISC",
@@ -25,7 +24,6 @@
         "matchdep": "^2.0.0"
     },
     "dependencies": {
-        "express": "^4.16.4",
         "firebase": "^5.4.2",
         "jquery": "^3.4.0",
         "moment": "^2.24.0"
